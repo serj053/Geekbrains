@@ -1,0 +1,349 @@
+
+@font-face {
+    font-family: "Myriad Pro"; /* Гарнитура шрифта */
+    src: url("fonts/myriad-pro/Myriad Pro Bold SemiExtended.ttf"); /* Путь к файлу со шрифтом */
+}
+
+.product-details{
+        display:flex;
+        align-items: center;
+        width: 1160px;
+        height: 56px;
+        margin:0 auto;
+    }
+    .product-details h4{
+        font-family: "Lato", sans-serif;
+        font-size: 14px;
+    }
+    .product-details .first{
+        width: 880px;
+
+    }
+    .product-details div{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .anchor-2{
+        width:1160px;
+        height: 100%;
+        margin:0 auto;
+    }
+    .product-place{
+        display:flex;
+        width:1160px;
+        height: 168px;
+        margin: 0 auto;
+        border-top: 1px solid #EAEAEA;
+        border-bottom: 1px solid #EAEAEA;
+    }
+    .cart-img{
+        width:120px;
+        height:168px;
+    }
+    .cart-img img{
+        width: 101px;
+        height: 153px;
+    }
+    .description{
+        width:348px;
+        height:168px;
+    }
+    .description p{
+        font-size: 13px;
+        font-family: "Myriad Pro";
+        color: rgb(34, 34, 34);
+        line-height: 1.2;
+        text-align: left;
+    }
+    .description p:nth-child(1) {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    text-transform: uppercase;
+    }
+
+    .description p:nth-child(2), .description p:nth-child(3){
+    font-size: 13px;
+    color: rgb(87, 87, 87);
+    line-height: 1.538;
+    text-align: left;
+    }
+
+
+    .unite-price{
+        width:160px;
+        height:168px;
+        font-size: 13px;
+        font-family: "Lato", sans-serif;
+        color: rgb(101, 101, 101);
+        text-align: center;
+        line-height: 168px;
+    }
+    .quantity-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:150px;
+        height:168px;
+    }
+    .quantity-2 div{
+        border:1px solid #EAEAEA;
+        width: 58px;
+        height: 34px;
+        text-align:center;
+        line-height: 34px;
+    }
+
+    .shipping{
+        width:140px;
+        height:168px;
+        font-size: 13px;
+        font-family: "Lato", sans-serif;
+        color: rgb(101, 101, 101);
+        line-height: 168px;
+        text-align: center;
+    }
+    .subtotal{
+        width:160px;
+        height:168px;
+        font-size: 13px;
+        font-family: "Lato", sans-serif;
+        color: rgb(101, 101, 101);
+        line-height: 168px;
+        text-align: center;
+    }
+
+    .inset{
+        width:25px;
+        height:168px;
+    }
+    .action{
+        width:58px;
+        height:168px;
+        text-align: center;
+        line-height: 168px;
+    }
+    .action img{
+        cursor: pointer;
+    }
+.clear-cart{
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    display:flex;
+    justify-content: space-between;
+    width: 1160px;
+    margin: 46px auto 60px;
+}
+.clear-cart div {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(234, 234, 234);
+    background-color: rgb(255, 255, 255);
+    width: 239px;
+    height: 54px;
+    text-align: center;
+    line-height: 3;
+    }
+
+    .shipping-address{
+        color: rgb(34, 34, 34);
+        font-size: 16px;
+        font-family: "Lato", sans-serif;
+        font-weight: 900;
+        display:flex;
+        justify-content: space-between;
+        width: 1160px;
+        height: 30px;
+        margin:0 auto;
+        padding-bottom: 20px;
+    }
+    .shopping-right{
+        margin-right: 603px;
+    }
+        .details-shipping {
+        width: 1160px;
+        height: 300px;
+        margin:0 auto;
+    }
+        .details-shipping{
+            display: flex;
+            justify-content: space-between;
+        }
+        .panel-1 details{
+            width: 359px;
+            height: 49px;
+            margin-bottom: 20px;
+
+    }
+        .panel-1 summary{
+            border-style: solid;
+            border-width: 1px;
+            border-color: rgb(234, 234, 234);
+            background-color: rgb(255, 255, 255);
+            width: 359px;
+            height: 49px;
+            font-size: 13px;
+            font-family: "Lato", sans-serif  ;
+            color: rgb(177, 177, 177);
+            line-height: 3.5;
+            padding-left: 20px;
+            outline: none;
+        }
+    .panel-1 summary::-webkit-details-marker{
+        float: right;
+        margin-top:18px;
+    }
+
+    .coupon-code{
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgb(234, 234, 234);
+        background-color: rgb(255, 255, 255);
+        width: 359px;
+        height: 49px;
+        font-size: 13px;
+        font-family: "Lato", sans-serif;
+        color: rgb(177, 177, 177);
+        line-height: 3.6;
+        margin-bottom: 20px;
+    }
+    .coupon-code span{
+        margin-left: 20px;
+    }
+    .postcode{
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgb(234, 234, 234);
+        background-color: rgb(255, 255, 255);
+        width: 359px;
+        height: 49px;
+        font-size: 13px;
+        font-family: "Lato", sans-serif;
+        color: rgb(177, 177, 177);
+        line-height: 3.6;
+        margin-bottom: 20px;
+    }
+    .postcode span{
+        margin-left: 20px;
+    }
+    .get-quote{
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgb(234, 234, 234);
+        background-color: rgb(255, 255, 255);
+        width: 104px;
+        height: 49px;
+        font-size: 11px;
+        font-family: "Lato",sans-serif;
+        color: rgb(74, 74, 74);
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 3.6;
+        text-align:center;
+    }
+
+    .panel-2 .p-1{
+        font-size: 14px;
+        font-family: "Lato", sans-serif;
+        color: rgb(0, 0, 0);
+        line-height: 1.2;
+        margin-top:5px;
+    }
+
+    .panel-2 .p-2{
+        margin-top: 30px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgb(234, 234, 234);
+        background-color: rgb(255, 255, 255);
+        width: 339px;
+        height: 49px;
+        font-size: 13px;
+        font-family: "Lato",sans-serif;
+        color: rgb(177, 177, 177);
+        line-height: 3.4;
+        padding-left: 20px;
+    }
+    .panel-2 .p-3{
+        margin-top: 20px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgb(234, 234, 234);
+        background-color: rgb(255, 255, 255);
+        width: 122px;
+        height: 39px;
+        font-size: 11px;
+        font-family: "Lato", sans-serif;
+        color: rgb(74, 74, 74);
+        font-weight: bold;
+        line-height: 3.4;
+        text-align: center;
+    }
+
+    .panel-3{
+        background-color: rgb(245, 243, 243);
+        width: 360px;
+        height: 214px;
+    }
+    .panel-3 .p-1{
+        background-color: rgb(245, 243, 243);
+        width: 360px;
+        height: 20px;
+        display: flex;
+        justify-content: flex-end;
+        font-size: 11px;
+    }
+
+    .p-11{
+        margin-left: 20px;
+        margin-right: 10px;
+        font-family: "Myriad Pro";
+        color: rgb(74, 74, 74);
+
+    }
+    .panel-3 .p-2{
+        width: 274px;
+        height: 42px;
+        margin-left: 86px;
+        font-size: 16px;
+        font-family: "Lato", sans-serif;
+        color: rgb(34, 34, 34);
+        font-weight: bold;
+        line-height: 1.2;
+        border-bottom: 1px solid #E2E2E2;
+    }
+    .panel-3 .p-2-span {
+        padding-left: 103px;
+        padding-right: 20px;
+
+    }
+    .panel-3 .p-2-span2{
+        color: #F16D7F;
+    }
+    .panel-3 .p-3{
+        background-color: rgb(241, 109, 127);
+        width: 273px;
+        height: 50px;
+        margin-left: 86px;
+        font-size: 16px;
+        font-family: "Lato",sans-serif;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 3;
+        text-align: center;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="jquery-ui.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel ='stylesheet' href = 'index.css'>
+    <link rel ='stylesheet' href = 'men.css'>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/Product.js"></script>
+    <script src="js/InsertCart.js"></script>
+    <!-- <script src="js/main.js"></script>-->
+    <script src="js/Cart.js"></script>
+    <script src="js/test.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.ui.touch-punch.min.js"></script>
+    <script src="js/runner.js"></script>
+</head>
+<body>
+
+<header class = 'header'>
+    <div class="head">
+        <div class = ' header-flex'><!-- -->
+            <a href ="" class= 'logo'>
+                <img src = 'img/logo.png' alt = 'logo' >
+                <span class='brand'>BRAN</span><span class="brand_B">D</span>
+            </a>
+            <div class="browse">
+                <div class="summary-browse">Browse</div>
+                <div class="browse-content">
+
+                    <div class="h3">WOMEN</div>
+                    <p>Dresses</p>
+                    <p>Tops</p>
+                    <p>Sweaters/Knits</p>
+                    <p>Jackets/Coats</p>
+                    <p>Blazers</p>
+                    <p>Denim</p>
+                    <p>Leggings/Pants</p>
+                    <p>Skirts/Shorts</p>
+                    <p>Accessories</p>
+                    <div class="h3">MEN</div>
+                    <p>Bags/Purses</p>
+                    <p>Swimwear/Underwear</p>
+                    <p>Nightwear</p>
+                    <p>Shoes</p>
+                    <p>Beauty</p>
+                    <p></p>
+                    <p></p>
+
+                </div>
+
+            </div>
+
+            <form action="">
+                <input type="text" class="search">
+                <button class="button"></button>
+            </form>
+            <div class="wrap_img" id="wrap_img">
+                <a href="cart.html" class="cart">
+                    <img src = 'img/cart.png' alt = 'cart'  >
+                </a>
+                <div class="elipse">0</div>
+                <div class="add-to-cart"></div> <!--  -->
+            </div>
+            <div class="account">
+
+                <a href = 'a' class ='my-a'>My acount </a>
+            </div>
+        </div>
+    </div>
+    <!--  М Е Н Ю    -->
+    <nav>
+        <ul class = 'menu'>
+            <li ><a href="index.html"><h3>HOME</h3></a></li>
+            <li ><a href="men.html"><h3>MAN</h3></a></li>
+            <!--М Е Г А    М Е Н Ю   -->
+            <li ><a href=""><h3>WOMAN</h3></a>
+                <div class="mega">
+                    <div class="mega-1">
+                        <h3>WOMAN</h3>
+                        <div class="wrap">
+                            <ul>
+                                <li><a href="">Dresses</a></li>
+                                <li><a href="">Tops</a></li>
+                                <li><a href="">Sweaters/Knits</a></li>
+                                <li><a href="">Jackets/Coats</a></li>
+                                <li><a href="">Blazers</a></li>
+                                <li><a href="">Denim</a></li>
+                                <li><a href="">Leggings/Pants</a></li>
+                                <li><a href="">Skirts/Shorts</a></li>
+                                <li><a href="">Accessories</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mega-1">
+                        <h3>WOMAN</h3>
+                        <div class="wrap">
+                            <ul>
+                                <li><a href="">Dresses</a></li>
+                                <li><a href="">Tops</a></li>
+                                <li><a href="">Sweaters/Knits</a></li>
+                                <li><a href="">Jackets/Coats</a></li>
+                                <h3 id="next">WOMAN</h3>
+                                <li><a href="">Dresses</a></li>
+                                <li><a href="">Tops</a></li>
+                                <li><a href="">Sweaters/Knits</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mega-2">
+                        <h3>WOMAN</h3>
+                        <div class="wrap" id="img_1">
+                            <ul >
+                                <li><a href="">Dresses</a></li>
+                                <li><a href="">Tops</a></li>
+                                <li><a href="">Sweaters/Knits</a></li>
+                                <li><a href="">Jackets/Coats</a></li>
+                            </ul>
+                            <a href=""><img src="img/men_in_menu.png" class="img_1">
+                                <div class="super-sale">SUPER SALE!</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <!--М Е Н Ю  -->
+            <li ><a href=""><h3>KIDS</h3></a></li>
+            <li ><a href=""><h3>ACCOSERIESE</h3></a></li>
+            <li ><a href=""><h3>FEATURED</h3></a></li>
+            <li ><a href=""><h3>HOT DEALS</h3></a></li>
+        </ul>
+    </nav>
+</header>
+<!--   N E W ARRIVALS  --->
+<div class="new-arrivals">
+    <div class="text">
+        New Arrivals
+    </div>
+</div>
+<!--    G O O D S  F O R   M E N  --->
+<div class="goods-for-men">
+    <div class="category">
+    <!--    <label for="checkin" class="label-checkin"></label>
+        <input type="checkbox" id="checkin">  -->
+        <details>
+            <summary class="summary">CATEGORY</summary>
+            <p>Accessories</p>
+            <p>Bags</p>
+            <p>Denim</p>
+            <p>Hoodies & Sweatshirts</p>
+            <p>Jackets & Coats</p>
+            <p>Pants</p>
+            <p>Polos</p>
+            <p>Shirts</p>
+            <p>Shoes</p>
+            <p>Shorts</p>
+            <p>Sweaters & Knits</p>
+            <p>T-Shirts</p>
+            <p>Tanks</p>
+        </details>
+        <details>
+            <summary class="summary">BRAND</summary>
+
+        </details>
+        <details>
+            <summary class="summary">DESIGNER</summary>
+
+        </details>
+
+    </div>
+    <div class="products">
+        <div class="top-filter">
+            <div class="trending">
+                <div class="trend">
+                    TRENDING NOW
+                </div>
+                <div class="bohem">
+                    <span>Bohemian</span><span>Floral</span><span id="lace">Lace</span>
+                </div>
+                <div class="floral">
+                    <span>Floral</span><span>Lace</span><span id="bohemian">Bohemian</span>
+                </div>
+                <div class="sort-show">
+                    <div class="sort_1">Sort By</div>
+                    <select class="sort">
+                        <option>Name</option>
+                    </select>
+                    <div class="show_1">Show</div>
+                    <select class="show">
+                        <option>09</option>
+                    </select>
+                </div>
+            </div>
+            <div class="size">
+                <div class="weight">SIZE</div>
+                <form action="#" id="size">
+                    <div class ='top-size'>
+                    <input type="checkbox" id="check_1">
+                    <label for="check_1">XXS</label>
+                    <input type="checkbox" id="check_2">
+                    <label for="check_2">XS</label>
+                    <input type="checkbox" id="check_3">
+                    <label for="check_3">S</label>
+                    <input type="checkbox" id="check_4">
+                    <label  for="check_4">M</label>
+                    </div>
+                    <div class="top-size">
+                    <input type="checkbox" id="check_5">
+                    <label for="check_5">L</label>
+                    <input type="checkbox" id="check_6">
+                    <label for="check_6">XL</label>
+                    <input type="checkbox" id="check_7">
+                    <label  for="check_7">XXL</label>
+                   </div>
+                </form>
+            </div>
+            <div class="price">
+                <div>PRICE</div>
+                <div id="polzunok" class="range">
+                    <div class="result_">
+                        <div id="result-polzunok">$10</div>
+                        <div id="result-polzunok_2">$65</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+ <!--  G O O D S     F O T O          -->
+        <div class="models">
+            <div class="fotos">
+                <div class="men-1" id="9">
+                    <img src="img_men/men_1.png" alt="">
+                    <div class="top_letter">MANGO  PEOPLE  T-SHIRT</div>
+                    <div class="bottom_letter">$52.00</div>
+                    <a href="#" class="add_cart_men" > </a>
+                </div>
+                <div class="men-1" id="10">
+                    <img src="img_men/men_2.png" alt="">
+                    <div class="top_letter">MANGO  PEOPLE  T-SHIRT</div>
+                    <div class="bottom_letter">$52.00</div>
+                    <a href="#" class="add_cart_men" > </a>
+                </div>
+                <div class="men-1" id="3">
+                    <img src="img_men/men_3.png" alt="">
+                    <div class="top_letter">MANGO  PEOPLE  T-SHIRT</div>
+                    <div class="bottom_letter">$52.00</div>
+                    <a href="#" class="add_cart_men" > </a>
+                </div>
+                <div class="men-1" id="11">
+                    <img src="img_men/men_4.png" alt="">
+                    <div class="top_letter">MANGO  PEOPLE  T-SHIRT</div>
+                    <div class="bottom_letter">$52.00</div>
+                    <a href="#" class="add_cart_men" > </a>
+                </div>
+                <div class="men-1" id="5">
+                    <img src="img_men/men_5.png" alt="">
+                    <div class="top_letter">MANGO  PEOPLE  T-SHIRT</div>
+                    <div class="bottom_letter">$52.00</div>
+                    <a href="#" class="add_cart_men" > </a>
+                </div>
+                <div class="men-1" id="12">
+                    <img src="img_men/men_6.png" alt="">
+                    <div class="top_letter">MANGO  PEOPLE  T-SHIRT</div>
+                    <div class="bottom_letter">$52.00</div>
+                    <a href="#" class="add_cart_men" > </a>
+                </div>
+                <div class="men-1" id="13">
+                    <img src="img_men/men_7.png" alt="">
+                    <div class="top_letter">MANGO  PEOPLE  T-SHIRT</div>
+                    <div class="bottom_letter">$52.00</div>
+                    <a href="#" class="add_cart_men" > </a>
+                </div>
+                <div class="men-1" id="14">
+                    <img src="img_men/men_8.png" alt="">
+                    <div class="top_letter">MANGO  PEOPLE  T-SHIRT</div>
+                    <div class="bottom_letter">$52.00</div>
+                    <a href="#" class="add_cart_men" > </a>
+                </div>
+                <div class="men-1" id="15">
+                    <img src="img_men/men_9.png" alt="">
+                    <div class="top_letter">MANGO  PEOPLE  T-SHIRT</div>
+                    <div class="bottom_letter">$52.00</div>
+                    <a href="#" class="add_cart_men" > </a>
+                </div>
+            </div>
+            <div class="pages-list">
+                <div class="numeric">
+                <div><img src="img_men/arrow_left.png" alt=""></div>
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+                <div>5</div>
+                <div>6</div>
+                <div>...</div>
+                <div>20</div>
+                <div><img src="img_men/arrow_right.png" alt=""></div>
+                </div>
+                <div class="view-all">
+                    View All
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!--  P R E  F O O T E R  --->
+<div class="pre-footer">
+    <div>
+        <img src="img/Forma_car.png" alt="">
+        <h3>Free Delivery</h3>
+        <div class="text-pre-footer">
+            Worldwide delivery on all. Authorit tively morph
+            next-generation innov tion with extensive models.
+        </div>
+    </div>
+    <div>
+        <img src="img/Forma_gear.png" alt="">
+        <h3>Free Delivery</h3>
+        <div class="text-pre-footer">
+            Worldwide delivery on all. Authorit tively morph
+            next-generation innov tion with extensive models.
+        </div>
+    </div>
+    <div>
+        <img src="img/Forma_crown.png" alt="">
+        <h3>Free Delivery</h3>
+        <div class="text-pre-footer">
+            Worldwide delivery on all. Authorit tively morph
+            next-generation innov tion with extensive models.
+        </div>
+    </div>
+</div>
+</div>
+<!--    F O O T E R  --->
+
+<div class="subscribe">
+    <img src="img/foto_girl.png" alt="girl" class="foto_girl">
+    <div class="label_girl">“Vestibulum quis porttitor dui! Quisque viverra nunc mi,
+        a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”
+        <div class="suscribe_1">
+            Bin Burhan</div>
+        <div class="subscribe_2">Dhaka, Bd</div>
+    </div>
+
+    <div class="label_subscribe">
+        <div class="subscribe_3">SUBSCRIBE</div>
+        <div class="subscribe_4">FOR OUR NEWLETTER AND PROMOTION</div>
+        <form action="#" class="form-email">
+            <input type="text" class="button-input" placeholder="Enter Your Email"/>
+            <button class="button-email" onclick="return false">Subscribe</button>
+
+        </form>
+
+    </div>
+</div>
+<div class="footer">
+    <div class="brand_footer">
+        <a href ="" class= 'logo logo_footer'>
+            <img src = 'img/logo.png' alt = 'logo' >
+            <span class='brand'>BRAN</span><span class="brand_B">D</span>
+        </a>
+        <div class="text_footer">
+            Objectively transition extensive data rather than cross functional solutions.
+            Monotonectally syndicate multidisciplinary materials before go forward benefits.
+            Intrinsicly syndicate an expanded array <br>of processes and cross-unit partnerships.
+            <br>
+            <br>
+            Efficiently plagiarize 24/365 action items and focused infomediaries.
+            Distinctively seize superior initiatives for wireless technologies. Dynamically
+            optimize.<br> Objectively strategize seamless relationships via resource sucking testing
+            procedures. Proactively cultivate next-generation results for value-added methodologies.
+            Dynamically plagiarize unique methodologies after performance based methodologies.
+            Monotonectally empower stand-alone mindshare rather than ubiquitous opportunities.
+            Dynamically orchestrate resource sucking scenarios after alternative synergy.
+            Compellingly envisioneer corporate methods of empowerment before standards compliant
+            technologies. Objectively facilitate progressive.
+        </div>
+    </div>
+    <div class="company footer_column">
+        <h3>COMPANY</h3>
+        <pre class="company_text">
+            <a href="index.html">Home</a>
+            <a href="">Shop</a>
+            <a href="">About</a>
+            <a href="">How It Works</a>
+            <a href="">Contact</a>
+        </pre>
+    </div>
+    <div class="information footer_column">
+        <h3>INFORMATION</h3>
+        <pre class="company_text">
+            <a href="">Tearms & Condition</a>
+            <a href="">Privacy Policy</a>
+            <a href="">How to Buy</a>
+            <a href="">How to Sell</a>
+            <a href="">Promotion</a>
+        </pre>
+    </div>
+    <div class="cataegory footer_column">
+        <h3>SHOP CATEGORY</h3>
+        <pre class="company_text">
+            <a href="men.html">Men</a>
+           <a href="">Women</a>
+            <a href="">Child</a>
+            <a href="">Apparel</a>
+            <a href="">Brows All</a>
+        </pre>
+    </div>
+</div>
+<div class="floor">
+    <div class="all_rights">
+        © 2017  Brand  All Rights Reserved.
+
+        <div class="nets">
+            <a href ="#"><div class="soc-net facebook"></div></a>
+            <a href="#"><div class="soc-net bird"></div></a>
+            <a href="#"><div class="soc-net row"></div></a>
+            <a href="#"><div class="soc-net G_plus"></div></a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

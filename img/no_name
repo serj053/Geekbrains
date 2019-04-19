@@ -1,0 +1,28 @@
+Return-Path: <79165466772@yandex.ru>
+Received: from mxback10j.mail.yandex.net (mxback10j.mail.yandex.net [IPv6:2a02:6b8:0:1619::113])
+	by forward501o.mail.yandex.net (Yandex) with ESMTP id 856061E80254
+	for <wallker22@gmail.com>; Mon, 11 Mar 2019 10:31:44 +0300 (MSK)
+Received: from localhost (localhost [::1])
+	by mxback10j.mail.yandex.net (nwsmtp/Yandex) with ESMTP id 9opWCBF1JS-VhWGBhAp;
+	Mon, 11 Mar 2019 10:31:43 +0300
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yandex.ru; s=mail; t=1552289503;
+	bh=WP+0c69mM+O13lQ4vHuI4/Z4VF7dEu2ZLjl+acN1FU8=;
+	h=Message-Id:Subject:In-Reply-To:Date:References:To:From;
+	b=IjUNeRXAg4qw8dAxfy/lLYnWByBFe1RgyGYsdqTFl3AjNbIP5eSWI9hvUKSM7/xav
+	 OevJ8kgBkjEzPzL1Ht3p2SI0OuQpv/uiQjPumMMst0FHrmlB5dJgibG8piC3E14Hvf
+	 sOhJujMJtH8i6UnJK+G8XbC+O0/YvEgi2R4SFWGg=
+Authentication-Results: mxback10j.mail.yandex.net; dkim=pass header.i=@yandex.ru
+Received: by iva7-4f557d6b60d4.qloud-c.yandex.net with HTTP;
+	Mon, 11 Mar 2019 10:31:43 +0300
+From: =?utf-8?B?0KHQtdGA0LPQtdC5INCT0L7QvdGH0LDRgNC+0LI=?= <79165466772@yandex.ru>
+Envelope-From: serj053@yandex.ru
+To: =?utf-8?B?0JzQuNGC0Y8g0J/RgNC10YHQu9C4?= <wallker22@gmail.com>
+In-Reply-To: <CADwmdTvV1eLDqkRBDYiz3SG9WtgvwLQFtxTF64AMZpnBQP_C1A@mail.gmail.com>
+References: <6635131552287683@sas1-d856b3d759c7.qloud-c.yandex.net> <CADwmdTvV1eLDqkRBDYiz3SG9WtgvwLQFtxTF64AMZpnBQP_C1A@mail.gmail.com>
+Subject: =?utf-8?B?UmU6INCf0YDQvtCy0LXRgNC60LA=?=
+MIME-Version: 1.0
+X-Mailer: Yamail [ http://yandex.ru ] 5.0
+Date: Mon, 11 Mar 2019 10:31:43 +0300
+Message-Id: <22476531552289503@iva7-4f557d6b60d4.qloud-c.yandex.net>
+Content-Type: multipart/mixed;
+	boundary="----==--bound.2247654.iva7-4f557d6b60d4.qloud-c.yandex.net"

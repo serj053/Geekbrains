@@ -1,0 +1,384 @@
+
+    .new-arrivals{
+        background-color: rgb(248, 243, 244);
+        width: 1610px;
+        height: 148px;
+        margin: 2px auto;
+        position: relative;
+    }
+    .new-arrivals .text{
+        font-size: 24px;
+        font-family: "Lato", sans-serif;
+        font-weight: 900;
+        color: rgb(241, 109, 127);
+        text-transform: uppercase;
+        line-height: 0.833;
+        text-align: center;
+        position: absolute;
+        left: 226px;
+        top: 60px;
+    }
+
+    .goods-for-men{
+        display:flex;
+        justify-content: center;
+        height: 1550px;
+        width:1610px;margin: 0 auto;
+    }
+/*  C A T E G O R Y*/
+    .category{
+        font-family: "Lato", sans-serif;
+    }
+    .category details{
+        cursor:pointer;
+    }
+    .summary{
+        height: 45px;
+        border-left:5px solid red;
+        font-weight: bold;
+        padding-left: 10px;
+        line-height: 2.6;
+        outline: none;
+        margin-bottom: 16px;
+    }
+/*
+    .label-checkin{
+        display:block;
+        width:280px;
+        height:35px;
+        border:1px solid;
+    }
+    #checkin{
+        visibility: hidden;
+        float: left;
+    }
+*/
+    .summary::-webkit-details-marker{
+        /* display: none;*/
+          color:red;
+            float: right;
+             margin-top:12px;
+    }
+    .category p{
+        padding: 8px 15px;
+    }
+ /*     TRENDING NOW         */
+
+    .top-filter{
+        display:flex;
+        width:100%;
+        height:176px;
+        font-family: "Lato", sans-serif;
+        font-weight: 700;
+    }
+        .trend{
+            padding:6px 24px;
+        }
+        .bohem, .floral{
+            padding:6px 16px;
+        }
+        .trending, .size, .price{
+            width: 326px;
+            height:100%;
+        }
+        .trending span{
+            padding: 0 10px;
+            border-right:1px solid #ccc;
+        }
+        #lace, #bohemian{
+            border-right: none;
+        }
+        .sort-show{
+            display:flex;
+            justify-content: space-between;
+            width:285px;
+            height: 25px;
+            margin-left:45px;
+            margin-top: 40px;
+        }
+        .sort-show select{
+            border:1px solid rgb(235, 235, 235);
+            background-color: rgb(255, 255, 255);
+            font-size:15px;
+            padding: 0 5px;
+        }
+        .sort_1{
+            border:1px solid rgb(235, 235, 235);
+            background-color: rgb(255, 255, 255);
+            width: 157px;
+            height: 34px;
+        }
+
+
+        .show_1 {
+            border:1px solid rgb(235, 235, 235);
+            background-color: rgb(255, 255, 255);
+            padding: 0 22px;
+        }
+        .show{
+            padding: 0 8px;
+        }
+
+ /*   SIZE */
+        .top-size label, .bottom-size label{
+            padding-right:30px;
+            cursor: pointer;
+        }
+        .top-size input{
+            cursor:pointer;
+        }
+        .top-size{
+            margin:15px 25px 15px 10px;
+        }
+        .bottom-size{
+            margin: 15px;
+        }
+    .category{
+        width:252px;
+        height:978px;
+        padding-right: 30px;
+    }
+    .products{
+        width: 978px;
+        height:1550px;
+    }
+/*  P R I C E   RANGE   */
+    .ui-slider-horizontal{
+        height: 5px;
+
+
+    }
+    .ui-slider-range{
+        background: red !important;
+    }
+    .ui-slider-handle{
+        height: 10px;
+        border-radius: 50%;
+        outline:none !important;
+        background: red !important;
+        margin-top: -3px;
+        cursor: pointer !important;
+    }
+    .ui-slider{
+        width: 262px;
+        background: rgb(240, 240, 240) !important;
+        border: none !important;
+        margin-top: 20px;
+
+    }
+    .range{
+        margin-bottom: 20px;
+    }
+    .result_{
+        display: flex;
+        justify-content: space-between;
+        width: 262px;
+        margin-top: 20px;
+        line-height: 5;
+    }
+
+   /* .range{
+   .Rounded_Rectangle_8_copy {
+  background-color: rgb(240, 240, 240);
+  position: absolute;
+  left: 1108px;
+  top: 404px;
+  width: 262px;
+  height: 6px;
+  z-index: 433;
+}
+
+
+
+
+        margin-top:10px;
+        margin-left:4px;
+    }*/
+    input[type=range] {
+        -webkit-appearance: none;
+        width: 240px;
+        height: 5px;
+        cursor: pointer;
+        margin-top: -5px;
+    }
+    input[type=range]:focus {
+        outline: none;
+    }
+    input[type=range]::-webkit-slider-runnable-track {
+        width: 240px;
+        height: 5px;
+        cursor: pointer;
+        background: red;
+    }
+    input[type=range]::-webkit-slider-thumb {
+        height: 16px;
+        width: 16px;
+        border-radius: 8px;
+        background: red;
+        cursor: pointer;
+        -webkit-appearance: none;
+        margin-top: -5px;
+    }
+    .range-span{
+        display:flex;
+        justify-content: space-between;
+        margin-top: 18px;
+        width:240px;
+        height:20px;
+    }
+
+/* G O O D S    F O T O    */
+    .men-1:hover{
+        -webkit-transform: scale(1.02);
+        -ms-transform: scale(1.02);
+        transform: scale(1.02);
+        filter:brightness(90%);
+        box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.16);
+    }
+    .models{
+        width: 978px;
+        height: 1370px;
+    }
+    .men-1{
+        position: relative;
+    }
+
+    .fotos>div{
+        width:263px;
+        height:364px;
+        margin:20px 31px;
+    }
+    .fotos img{
+        width:263px;
+        height:280px;
+    }
+    .fotos{
+        display:flex;
+        flex-wrap: wrap;
+        width: 978px;
+    }
+    .fotos-string{
+        font-size: 13px;
+        font-family: "Lato", sans-serif;
+        font-weight: bold;
+        color: rgb(111, 110, 110);
+        text-transform: uppercase;
+        line-height: 1.2;
+        margin:16px 10px;
+    }
+    .fotos-price{
+        margin-left: 10px;
+        color: #F16D7F;
+
+    }
+    .add_cart_men{
+        position: absolute;
+        width:263px;
+        height:280px;
+        top:1px;
+
+    }
+
+    .pages-list{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 910px;
+        height: 120px;
+
+        margin: 20px 31px;
+    }
+    .numeric{
+        display: flex;
+        justify-content: center;
+    }
+    .numeric div{
+        width: 18px;
+        height: 20px;
+        font-size: 16px;
+        color: #C4C4C4;
+        line-height: 1.625;
+        cursor: pointer;
+        text-align: center;
+        margin: 5px;
+    }
+    .numeric div:hover{
+        color:red;
+    }
+    .view-all{
+        width: 150px;
+        height: 44px;
+        border: 1px solid #EF5B70;
+        text-align: center;
+        font-size: 16px;
+        color: rgb(239, 91, 112);/*color: #EF5B70;*/
+        line-height: 3;
+    }
+    .view-all:hover {
+        background-color: #EF5B70;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    /*  */
+    .pre-footer{
+        display: flex;
+        background-color: rgb(34, 34, 36);
+        width: 1602px;
+        height: 341px;
+        margin: 0 auto -80px;
+
+    }
+    .pre-footer img{
+        margin-top: 80px;
+    }
+    .pre-footer >div{
+        width: 534px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .pre-footer div H3{
+        margin-top: 24px;
+        color:#fff;
+    }
+    .text-pre-footer{
+        margin-top: 14px;
+        width: 330px;
+        height: 50px;
+        color:#fff;
+    }
+
+/*
+.Image_placeholder {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 815px;
+  top: 983px;
+  width: 263px;
+  height: 364px;
+  z-index: 243;
+}
+
+
+.Image_placeholder {
+  background-color: rgb(233, 233, 233);
+  position: absolute;
+  left: 522px;
+  top: 984px;
+  width: 263px;
+  height: 280px;
+  z-index: 214;
+}
+.Rectangle_9_copy {
+  background-color: rgba(242, 242, 242, 0.502);
+  position: absolute;
+  left: -10px;
+  top: 2284px;
+  width: 1618px;
+  height: 438px;
+  z-index: 50;
+}
+
+
+*/
