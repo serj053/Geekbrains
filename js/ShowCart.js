@@ -1,4 +1,4 @@
-
+// класс обслуживает страницу карзины
     class ShowCart{
         constructor(arr){
             this.arr = arr;
@@ -62,7 +62,7 @@
             $cont.append($delButton);
             $anchor.append($cont);
 
-            //навешиваем событие на кнопку удаление товара
+//навешиваем событие на кнопку удаление товара
             let arr = this.arr;
             $delButton.click(function(event){
                 let id =$(event.target).parent().parent().attr('id');
@@ -85,8 +85,8 @@
                             $('.elipse').text(--nn);
 //уменьшаем общее количество товара в массиве
                             --arr[0]['amount'];
-   console.log("amount@ = "+arr[0]['amount']);
-   console.log("total@ = "+arr[0]["total"]);
+//console.log("amount@ = "+arr[0]['amount']);
+//console.log("total@ = "+arr[0]["total"]);
 //обновляем localStorage
                             localStorage.setItem('myCart',JSON.stringify(arr));
                         }else{
@@ -97,13 +97,13 @@
                             $("#here").text("$"+arr[0]['total']);//вставляем в элемент
 
 //удаляем из наружнего массива
-                            console.log("splice -" +arr.splice(arr.indexOf(elem), 1));          ;
-                            //      arr.splice(arr[0], 2);
+//console.log("splice -" +arr.splice(arr.indexOf(elem), 1));          ;
+//      arr.splice(arr[0], 2);
 //меняем общее количество товара на индикаторе
                             let nn = +$('.elipse').text();
                             $('.elipse').text(--nn);
 
-                            console.log("In delBtn = "+ nn);
+//console.log("In delBtn = "+ nn);
 //console.log(" amount before  -"+arr[0]['amount']);
 
 //уменьшаем общее количество товара в массиве

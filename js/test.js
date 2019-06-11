@@ -2,11 +2,11 @@
     $(document).ready(function(){
 
         let outerContainer = [];
-console.log("outerContainer  - "+outerContainer);
+//console.log("outerContainer  - "+outerContainer);
       if(localStorage.getItem('myCart')) {
-//загружается содержимое нак страницу если хранилище не пустое
+//загружается содержимое на страницу если хранилище не пустое
          outerContainer = JSON.parse(localStorage.getItem('myCart'));
-console.log("В нутри  if localStorage  - "+outerContainer);
+//console.log("В нутри  if localStorage  - "+outerContainer);
 //объект вставляет в корзинку данные
            new InsertCart(outerContainer);
 //вставляем данные в страницу всех товаров если она открылась
@@ -27,7 +27,7 @@ console.log("В нутри  if localStorage  - "+outerContainer);
 
             cart.addToCart(event);
         });
-console.log("outerContainer = " +outerContainer);
+//console.log("outerContainer = " +outerContainer);
         /*
           window.addEventListener("beforeunload", function(e){
                 localStorage.clear();
@@ -38,6 +38,6 @@ console.log("outerContainer = " +outerContainer);
             });
                    // */
 
-          //  localStorage.clear();
+        //localStorage.clear();
        // console.log("localStorage.getItem() end  = " +localStorage.getItem("myCart"));
     });

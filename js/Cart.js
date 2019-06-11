@@ -26,15 +26,10 @@
             }
         }
 
-//нажатие кнопки удалениея товара
-  //      removeFromCart(){
-//            let id = $(event.target).parent().attr('id');
- //           $(`.add-to-cart div[id = ${id}]`).remove();
-  //      }
 //проверка наличия товара в карзине если товар есть то вернуть id товара
         checkSituation(event){
             let id = $(event.target).parent().attr('id');
-            if(this.outerContainer&& this.outerContainer.length !== 0)
+            if(this.outerContainer && this.outerContainer.length !== 0)
             for(let element of this.outerContainer){
                 if(element.id === id )
                     return element.id;
@@ -52,10 +47,10 @@
 //добавляем стоимость товара в общую сумму товара
                     let number = +/[0-9]+/.exec(elem.price);
                     this.outerContainer[0]['total'] += number;
- console.log(" in total = "+ this.outerContainer[0]['total']);
+//console.log(" in total = "+ this.outerContainer[0]['total']);
 //заносим общее количество товара на индикаторе
                     this.outerContainer[0]['amount'] = nn;
- console.log("in amount = "+this.outerContainer[0]['amount']);
+//console.log("in amount = "+this.outerContainer[0]['amount']);
                     $("#here").text("$"+this.outerContainer[0]['total']);//вставляем в элемент
 //заносим или перезаписываем данные в локальное хранилище
                     localStorage.setItem('myCart',JSON.stringify(this.outerContainer));
@@ -77,7 +72,8 @@
                 "title": titleReseived,         // нименование товара
                 "quantity":0, "img":imgReseived,// количество товара одного вида
                 "price": priceReseived,         //цена товара
-                }); //денежная сумма всех товаров
+                });
+ //денежная сумма всех товаров
             if(!this.outerContainer[1]){
                 this.outerContainer.unshift({"amount":0,"total":this.total});
             }
@@ -128,11 +124,10 @@
             $choice.append($inform);
             $choice.append($delBtn);
 
-            let arr = this.outerContainer;
+/* --> */   let arr = this.outerContainer;
 
 //навешиваем событие на кнопку удаление товара
             $delBtn.click(function(event){
-               // this.parentNode.remove();
                 let id =$(event.target).parent().attr('id');
 //находим в массиве элемент по которому кликнули
                 for(let elem of arr){
@@ -151,11 +146,11 @@
                             $('.elipse').text(--nn);
 //уменьшаем общее количество товара в массиве
                             --arr[0]['amount'];
-  console.log("amount@ = "+arr[0]['amount']);
-  console.log("total@ = "+arr[0]["total"]);
+//console.log("amount@ = "+arr[0]['amount']);
+//console.log("total@ = "+arr[0]["total"]);
   //обновляем localStorage
                localStorage.setItem('myCart',JSON.stringify(arr));
-                        }else{
+                        }else{//если товр остался в одном екземпляре то удаляем
                             this.parentNode.remove();//удаляем dom элемент с товаром
 //ументшаем денежную сумму всех товаров
                             let number = +/[0-9]+/.exec(elem.price);
